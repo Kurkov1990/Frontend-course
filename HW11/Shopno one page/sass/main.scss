@@ -1,0 +1,29 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration:none;
+}
+$header-color: #eff0f2;
+$about-color: #f8fafa;
+
+.wraper {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height:100%;
+}
+
+@import "compass/reset";
+@import "header";
+@import "content";
+@import "gallery";
+@import "slider-down";
+@import "footer";

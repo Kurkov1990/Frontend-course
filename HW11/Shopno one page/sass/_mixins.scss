@@ -1,0 +1,11 @@
+@mixin info-block {
+  box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+  background-color: rgba(2, 22, 35, 0.71);
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+  padding-top: 47px;
+  box-sizing: border-box;
+  position: relative;
+  height: 460px;
+}

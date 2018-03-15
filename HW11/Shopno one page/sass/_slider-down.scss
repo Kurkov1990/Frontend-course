@@ -1,0 +1,52 @@
+.testimonial {
+  background-color: #f9fbfb;
+  padding-bottom: 139px;
+}
+
+.multiple-items {
+  margin-top: 135px;
+}
+
+.slider-down-block {
+  display: flex !important;
+  background: url(../img/rectangle-1.png) 2% 52% no-repeat;
+  background-size: 37.2% 90%;
+  justify-content: space-between;
+
+}
+.slider-img{
+  padding: 0px 38px;
+}
+.slider-text {
+  opacity: 0.7;
+  color: #000000;
+  font:400 1rem/1.687 Raleway, sans-serif;
+  margin:4.8% 0;
+}
+
+.slider-wrap {
+  width: 55%;
+  height: 362px;
+  border-radius: 3px;
+  background-color: #eaebed;
+  margin-top: 24px;
+  h3 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  p {
+    width: 74%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+}
+
+.multiple-items .slick-dots {
+ right:30%;
+}
+
+img.rating {
+  width: 22%;
+  margin: 0 auto;
+}
