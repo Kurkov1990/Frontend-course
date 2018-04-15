@@ -1,0 +1,39 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+$font-header: "Raleway";
+$header-color: #383838;
+$main-word: #00a99d;
+
+@import "compass/reset";
+@import "header";
+@import "content";
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin:0 auto;
+  @media (min-width: 768px) {
+    width: 750px;
+  }
+  @media (min-width: 992px){
+    width: 970px;
+
+  }
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
+}
